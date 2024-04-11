@@ -1,0 +1,27 @@
+package com.company;
+import java.util.Scanner ;
+public class percentag {
+    public static void main(String[] args) {
+
+
+        System.out.println("What is your name :");
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println("Hello," + name + " have a good day !");
+        System.out.println("Enter sub 1 Marks :");
+        float m1 = sc.nextInt();
+        System.out.println("Enter sub 2 Marks :");
+        float m2 = sc.nextInt();
+        System.out.println("Enter sub 3 Marks :");
+        float m3 = sc.nextInt();
+        System.out.println("Enter sub 4 Marks :");
+        float m4 = sc.nextInt();
+        System.out.println("Enter sub 5 Marks :");
+       float m5 = sc.nextInt();
+       float  marks=m1+m2+m3+m4+m5;
+        System.out.println("total marks :" + marks);
+       float b1= marks;
+        float percentage = (b1/500) * 100;
+        System.out.println("Percentage :"+ percentage);
+    }
+}
