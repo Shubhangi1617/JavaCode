@@ -1,0 +1,62 @@
+public class loop {
+    public static void main(String[] args) {
+        /*
+        System.out.println("Using  While Loop :");
+        int i =100 ;
+        while (i<=200){
+            System.out.println(i);
+            i++;
+        }
+
+         */
+
+        //System.out.println("Finish running while loop");
+        //while(true){
+          //  System.out.println("I LOVE YOU HARSHA ");
+        //}
+
+
+
+        /*int a = 10;
+          System.out.println("Using do while Loop");
+        do {
+            System.out.println("a");
+            a++;
+            }while(a<5);
+
+         */
+
+     /* int a = 0;
+        do {
+            System.out.println("a");
+            a++;
+        }while(a<5);
+
+      */
+
+        System.out.println("Using For Loop");
+       /* for(int i=1; i<=5; i++){
+            System.out.println(i);
+        }
+
+        */
+
+        //2i = even numbers = 0, 2,4,6,8
+        //2i+1 = odd numbers = 1,3,5,7,9
+
+        //first n odd numbers using for loop
+
+       /* int n = 10;
+        for(int i=0; i<n; i++){
+            System.out.println(2*i+1);
+        }
+
+        */
+
+        //decrementing for loop
+        for(int i=5; i>0; i--){
+            System.out.println(i);
+        }
+
+    }
+}
