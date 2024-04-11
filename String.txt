@@ -1,0 +1,56 @@
+import java.util.Locale;
+
+public class tringg {
+    public static void main(String[] args) {
+
+        String name = "Shubhu";
+        System.out.println(name);
+        //String name = new String("Shubhu");
+        //    System.out.println(name);
+
+        int value = name.length();
+        System.out.println("value");
+
+        String lstring = name.toLowerCase();
+        System.out.println(lstring);
+
+        String ustring = name.toUpperCase();
+        System.out.println(ustring);
+
+        String nonTrimmedString = "      Shubhu        ";
+        System.out.println(nonTrimmedString);
+        System.out.println(nonTrimmedString.trim());
+
+        System.out.println(name.substring(2));
+        System.out.println(name.substring(1, 4));
+
+        System.out.println(name.replace('h', 'u'));
+        System.out.println(name.replace("h", "sha"));
+
+        System.out.println(name.startsWith("Shubhu"));
+        System.out.println(name.startsWith("harsha"));
+        System.out.println(name.endsWith("sha"));
+        System.out.println(name.endsWith("u"));
+
+        System.out.println(name.charAt(0));
+        System.out.println(name.charAt(5));
+
+        String modifiedname = " Harryrry";
+        //System.out.println(modifiedname.indexOf("rry"));
+        System.out.println(modifiedname.indexOf("rry",4));
+
+        System.out.println(name.equals("Shubhu"));
+        System.out.println(name.equals("ShUBHU"));
+        System.out.println(name.equalsIgnoreCase("Shubhu"));
+
+        System.out.println("I am escape sequence \" double quote");
+        System.out.println("I am escape sequence \\ double quote");
+        System.out.println("I am escape sequence \n double quote");
+        System.out.println("I am escape sequence \t double quote");
+
+
+
+    }
+
+
+}
