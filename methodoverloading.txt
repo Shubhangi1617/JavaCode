@@ -1,0 +1,39 @@
+package com.company;
+
+public class methodoverloading {
+    static void hey(){
+        System.out.println("Good Morning bro !");
+    }
+    static void hey(int a, int b){
+        System.out.println("Good Morning"  +  a );
+        System.out.println("Bro !");
+    }
+    static void change(int a){
+        a = 98;
+    }
+    static void change2(int [] arr){
+        arr[0] = 88;
+    }
+    static  void telljoke(){
+        System.out.println("I can do method overloading ! I totally understood this !\n" +
+                " And I can also tell you jokes of hatthi and mungi >hehehheeh");
+    }
+
+    public static void main(String[] args) {
+     // telljoke();
+
+    // case 1 : changing the integer
+    //int x = 45;
+    //change(x);
+        // System.out.println("The value of x after running change is :" + x);
+// case 2 : changing the array
+      //  int [] marks = {78,89,98,77,99};
+        //change2(marks);
+        //System.out.println("The value of arr after running change 2 is :" + marks[0]);
+
+        //Method Overloading
+        hey();
+      hey(3000,4000);
+//  arguments are actual
+    }
+}
